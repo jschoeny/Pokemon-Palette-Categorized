@@ -1,6 +1,6 @@
 # Pokemon Palette Categorized
   A categorization of the primary and secondary colors of the sprites found in the Pokeemerald Expansion by rh-hideout
-  
+
   The provided tool is **highly recommended** to make categorization easier.
 
 # Guidelines
@@ -60,9 +60,9 @@
   primaryIndexes
   4   // The number of color indexes
   5   // An index from the sprite's .pal file
-  6 
-  7 
-  8 
+  6
+  7
+  8
   secondaryIndexes
   3   // The number of color indexes
   1   // An index from the sprite's .pal file
