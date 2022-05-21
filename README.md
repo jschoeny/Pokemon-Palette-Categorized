@@ -1,11 +1,12 @@
 # Pokemon Palette Categorized
   A categorization of the primary and secondary colors of the sprites found in the Pokeemerald Expansion by rh-hideout
 
-  The provided tool is **highly recommended** to make categorization easier.
+  The [provided tool](https://github.com/jschoeny/Pokemon-Palette-Categorized/releases) is **highly recommended** to make color categorizing easier.
 
 # Guidelines
 - **Submit pull requests to the `dev` branch**
-  - Include a screenshot of the front and back images in typings of your choosing, i.e.:
+  - The `master` branch is for final decisions only
+  - Include screenshots of the front and back images in any *different* typing you think looks nice, i.e.:
 <p align="center">
 <img width="100" alt="Tentacruel as a Dark and Electric type" src="https://user-images.githubusercontent.com/2257407/169610991-05f4512f-ba5e-4870-ad53-d01c2c8dd9c7.png"> <img width="100" alt="Tentacruel as a Fairy and Dark type" src="https://user-images.githubusercontent.com/2257407/169612005-db89cab6-328f-46f5-b969-0f27b1e4ed5d.png">
 </p>
