@@ -1,0 +1,12 @@
+primaryIndexes
+4 
+1 
+2 
+4 
+15 
+secondaryIndexes
+4 
+10 
+11 
+12 
+13 
