@@ -1064,7 +1064,7 @@ static const u16 gMonTypeColorIndexesPrimary[NUM_SPECIES] =
     [SPECIES_ROTOM_WASH] = (IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6)),
     [SPECIES_ROTOM_FROST] = 0,
     [SPECIES_ROTOM_FAN] = (IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(7) | IND_TO_B(8)),
-    [SPECIES_ROTOM_MOW] = 0,
+    [SPECIES_ROTOM_MOW] = (IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6)),
     // Giratina
     [SPECIES_GIRATINA_ORIGIN] = 0,
     // Shaymin
@@ -2340,7 +2340,7 @@ static const u16 gMonTypeColorIndexesSecondary[NUM_SPECIES] =
     [SPECIES_ROTOM_WASH] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(9) | IND_TO_B(11) | IND_TO_B(14)),
     [SPECIES_ROTOM_FROST] = 0,
     [SPECIES_ROTOM_FAN] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(3) | IND_TO_B(12) | IND_TO_B(13)),
-    [SPECIES_ROTOM_MOW] = 0,
+    [SPECIES_ROTOM_MOW] = (IND_TO_B(0) | IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(10) | IND_TO_B(12) | IND_TO_B(13)),
     // Giratina
     [SPECIES_GIRATINA_ORIGIN] = 0,
     // Shaymin
