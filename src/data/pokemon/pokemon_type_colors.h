@@ -1180,8 +1180,8 @@ static const u16 gMonTypeColorIndexesPrimary[NUM_SPECIES] =
     // Xerneas
     [SPECIES_XERNEAS_ACTIVE] = 0,
     // Zygarde
-    [SPECIES_ZYGARDE_10] = 0,
-    [SPECIES_ZYGARDE_10_POWER_CONSTRUCT] = 0,
+    [SPECIES_ZYGARDE_10] = (IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(7) | IND_TO_B(9) | IND_TO_B(10)),
+    [SPECIES_ZYGARDE_10_POWER_CONSTRUCT] = (IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(7) | IND_TO_B(9) | IND_TO_B(10)),
     [SPECIES_ZYGARDE_50_POWER_CONSTRUCT] = (IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(8) | IND_TO_B(10)),
     [SPECIES_ZYGARDE_COMPLETE] = 0,
     // Hoopa
@@ -2456,8 +2456,8 @@ static const u16 gMonTypeColorIndexesSecondary[NUM_SPECIES] =
     // Xerneas
     [SPECIES_XERNEAS_ACTIVE] = 0,
     // Zygarde
-    [SPECIES_ZYGARDE_10] = 0,
-    [SPECIES_ZYGARDE_10_POWER_CONSTRUCT] = 0,
+    [SPECIES_ZYGARDE_10] = (IND_TO_B(2) | IND_TO_B(4)),
+    [SPECIES_ZYGARDE_10_POWER_CONSTRUCT] = (IND_TO_B(2) | IND_TO_B(4)),
     [SPECIES_ZYGARDE_50_POWER_CONSTRUCT] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(3)),
     [SPECIES_ZYGARDE_COMPLETE] = 0,
     // Hoopa
