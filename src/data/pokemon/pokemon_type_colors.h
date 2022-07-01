@@ -424,8 +424,8 @@ static const u16 gMonTypeColorIndexesPrimary[NUM_SPECIES] =
     [SPECIES_FLOATZEL] = 0,
     [SPECIES_CHERUBI] = 0,
     [SPECIES_CHERRIM] = 0,
-    [SPECIES_SHELLOS] = 0,
-    [SPECIES_GASTRODON] = 0,
+    [SPECIES_SHELLOS] = (IND_TO_B(1) | IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(7) | IND_TO_B(15)),
+    [SPECIES_GASTRODON] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(9)),
     [SPECIES_AMBIPOM] = 0,
     [SPECIES_DRIFLOON] = 0,
     [SPECIES_DRIFBLIM] = 0,
@@ -1056,9 +1056,9 @@ static const u16 gMonTypeColorIndexesPrimary[NUM_SPECIES] =
     // Cherrim
     [SPECIES_CHERRIM_SUNSHINE] = 0,
     // Shellos
-    [SPECIES_SHELLOS_EAST_SEA] = 0,
+    [SPECIES_SHELLOS_EAST_SEA] = (IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(7) | IND_TO_B(8)),
     // Gastrodon
-    [SPECIES_GASTRODON_EAST_SEA] = 0,
+    [SPECIES_GASTRODON_EAST_SEA] = (IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(14)),
     // Rotom
     [SPECIES_ROTOM_HEAT] = 0,
     [SPECIES_ROTOM_WASH] = 0,
@@ -1700,8 +1700,8 @@ static const u16 gMonTypeColorIndexesSecondary[NUM_SPECIES] =
     [SPECIES_FLOATZEL] = 0,
     [SPECIES_CHERUBI] = 0,
     [SPECIES_CHERRIM] = 0,
-    [SPECIES_SHELLOS] = 0,
-    [SPECIES_GASTRODON] = 0,
+    [SPECIES_SHELLOS] = (IND_TO_B(12) | IND_TO_B(14)),
+    [SPECIES_GASTRODON] = (IND_TO_B(12) | IND_TO_B(13) | IND_TO_B(14)),
     [SPECIES_AMBIPOM] = 0,
     [SPECIES_DRIFLOON] = 0,
     [SPECIES_DRIFBLIM] = 0,
@@ -2332,9 +2332,9 @@ static const u16 gMonTypeColorIndexesSecondary[NUM_SPECIES] =
     // Cherrim
     [SPECIES_CHERRIM_SUNSHINE] = 0,
     // Shellos
-    [SPECIES_SHELLOS_EAST_SEA] = 0,
+    [SPECIES_SHELLOS_EAST_SEA] = (IND_TO_B(12) | IND_TO_B(13) | IND_TO_B(14)),
     // Gastrodon
-    [SPECIES_GASTRODON_EAST_SEA] = 0,
+    [SPECIES_GASTRODON_EAST_SEA] = (IND_TO_B(12) | IND_TO_B(13)),
     // Rotom
     [SPECIES_ROTOM_HEAT] = 0,
     [SPECIES_ROTOM_WASH] = 0,
