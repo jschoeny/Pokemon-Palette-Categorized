@@ -481,7 +481,7 @@ static const u16 gMonTypeColorIndexesPrimary[NUM_SPECIES] =
     [SPECIES_PROBOPASS] = (IND_TO_B(9) | IND_TO_B(10) | IND_TO_B(11) | IND_TO_B(12) | IND_TO_B(13)),
     [SPECIES_DUSKNOIR] = (IND_TO_B(4) | IND_TO_B(6) | IND_TO_B(7) | IND_TO_B(8) | IND_TO_B(9) | IND_TO_B(12) | IND_TO_B(14)),
     [SPECIES_FROSLASS] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(7)),
-    [SPECIES_ROTOM] = 0,
+    [SPECIES_ROTOM] = (IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6)),
     [SPECIES_UXIE] = 0,
     [SPECIES_MESPRIT] = 0,
     [SPECIES_AZELF] = 0,
@@ -663,8 +663,8 @@ static const u16 gMonTypeColorIndexesPrimary[NUM_SPECIES] =
     [SPECIES_GRENINJA] = 0,
     [SPECIES_BUNNELBY] = 0,
     [SPECIES_DIGGERSBY] = 0,
-    [SPECIES_FLETCHLING] = 0,
-    [SPECIES_FLETCHINDER] = 0,
+    [SPECIES_FLETCHLING] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(4)),
+    [SPECIES_FLETCHINDER] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(4)),
     [SPECIES_TALONFLAME] = (IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(7) | IND_TO_B(8)),
     [SPECIES_SCATTERBUG] = 0,
     [SPECIES_SPEWPA] = 0,
@@ -1060,11 +1060,11 @@ static const u16 gMonTypeColorIndexesPrimary[NUM_SPECIES] =
     // Gastrodon
     [SPECIES_GASTRODON_EAST_SEA] = 0,
     // Rotom
-    [SPECIES_ROTOM_HEAT] = 0,
-    [SPECIES_ROTOM_WASH] = 0,
-    [SPECIES_ROTOM_FROST] = 0,
-    [SPECIES_ROTOM_FAN] = 0,
-    [SPECIES_ROTOM_MOW] = 0,
+    [SPECIES_ROTOM_HEAT] = (IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(7) | IND_TO_B(8)),
+    [SPECIES_ROTOM_WASH] = (IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6)),
+    [SPECIES_ROTOM_FROST] = (IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6)),
+    [SPECIES_ROTOM_FAN] = (IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(7) | IND_TO_B(8)),
+    [SPECIES_ROTOM_MOW] = (IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6)),
     // Giratina
     [SPECIES_GIRATINA_ORIGIN] = 0,
     // Shaymin
@@ -1757,7 +1757,7 @@ static const u16 gMonTypeColorIndexesSecondary[NUM_SPECIES] =
     [SPECIES_PROBOPASS] = (IND_TO_B(1) | IND_TO_B(3) | IND_TO_B(4) | IND_TO_B(5)),
     [SPECIES_DUSKNOIR] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(3) | IND_TO_B(10) | IND_TO_B(11)),
     [SPECIES_FROSLASS] = (IND_TO_B(8) | IND_TO_B(9)),
-    [SPECIES_ROTOM] = 0,
+    [SPECIES_ROTOM] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(10) | IND_TO_B(11) | IND_TO_B(12)),
     [SPECIES_UXIE] = 0,
     [SPECIES_MESPRIT] = 0,
     [SPECIES_AZELF] = 0,
@@ -1939,8 +1939,8 @@ static const u16 gMonTypeColorIndexesSecondary[NUM_SPECIES] =
     [SPECIES_GRENINJA] = 0,
     [SPECIES_BUNNELBY] = 0,
     [SPECIES_DIGGERSBY] = 0,
-    [SPECIES_FLETCHLING] = 0,
-    [SPECIES_FLETCHINDER] = 0,
+    [SPECIES_FLETCHLING] = (IND_TO_B(3) | IND_TO_B(9) | IND_TO_B(11) | IND_TO_B(12) | IND_TO_B(13)),
+    [SPECIES_FLETCHINDER] = (IND_TO_B(5) | IND_TO_B(11) | IND_TO_B(12) | IND_TO_B(13) | IND_TO_B(14)),
     [SPECIES_TALONFLAME] = (IND_TO_B(2) | IND_TO_B(3) | IND_TO_B(12)),
     [SPECIES_SCATTERBUG] = 0,
     [SPECIES_SPEWPA] = 0,
@@ -2336,11 +2336,11 @@ static const u16 gMonTypeColorIndexesSecondary[NUM_SPECIES] =
     // Gastrodon
     [SPECIES_GASTRODON_EAST_SEA] = 0,
     // Rotom
-    [SPECIES_ROTOM_HEAT] = 0,
-    [SPECIES_ROTOM_WASH] = 0,
-    [SPECIES_ROTOM_FROST] = 0,
-    [SPECIES_ROTOM_FAN] = 0,
-    [SPECIES_ROTOM_MOW] = 0,
+    [SPECIES_ROTOM_HEAT] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(3) | IND_TO_B(10) | IND_TO_B(11)),
+    [SPECIES_ROTOM_WASH] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(9) | IND_TO_B(11) | IND_TO_B(14)),
+    [SPECIES_ROTOM_FROST] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(9) | IND_TO_B(10)),
+    [SPECIES_ROTOM_FAN] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(3) | IND_TO_B(12) | IND_TO_B(13)),
+    [SPECIES_ROTOM_MOW] = (IND_TO_B(0) | IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(10) | IND_TO_B(12) | IND_TO_B(13)),
     // Giratina
     [SPECIES_GIRATINA_ORIGIN] = 0,
     // Shaymin
