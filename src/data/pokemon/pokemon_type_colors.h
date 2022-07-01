@@ -720,7 +720,7 @@ static const u16 gMonTypeColorIndexesPrimary[NUM_SPECIES] =
     [SPECIES_NOIVERN] = 0,
     [SPECIES_XERNEAS] = 0,
     [SPECIES_YVELTAL] = 0,
-    [SPECIES_ZYGARDE] = 0,
+    [SPECIES_ZYGARDE] = (IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(8)),
     [SPECIES_DIANCIE] = 0,
     [SPECIES_HOOPA] = 0,
     [SPECIES_VOLCANION] = 0,
@@ -1182,7 +1182,7 @@ static const u16 gMonTypeColorIndexesPrimary[NUM_SPECIES] =
     // Zygarde
     [SPECIES_ZYGARDE_10] = 0,
     [SPECIES_ZYGARDE_10_POWER_CONSTRUCT] = 0,
-    [SPECIES_ZYGARDE_50_POWER_CONSTRUCT] = 0,
+    [SPECIES_ZYGARDE_50_POWER_CONSTRUCT] = (IND_TO_B(4) | IND_TO_B(5) | IND_TO_B(6) | IND_TO_B(8) | IND_TO_B(10)),
     [SPECIES_ZYGARDE_COMPLETE] = 0,
     // Hoopa
     [SPECIES_HOOPA_UNBOUND] = 0,
@@ -1996,7 +1996,7 @@ static const u16 gMonTypeColorIndexesSecondary[NUM_SPECIES] =
     [SPECIES_NOIVERN] = 0,
     [SPECIES_XERNEAS] = 0,
     [SPECIES_YVELTAL] = 0,
-    [SPECIES_ZYGARDE] = 0,
+    [SPECIES_ZYGARDE] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(3)),
     [SPECIES_DIANCIE] = 0,
     [SPECIES_HOOPA] = 0,
     [SPECIES_VOLCANION] = 0,
@@ -2458,7 +2458,7 @@ static const u16 gMonTypeColorIndexesSecondary[NUM_SPECIES] =
     // Zygarde
     [SPECIES_ZYGARDE_10] = 0,
     [SPECIES_ZYGARDE_10_POWER_CONSTRUCT] = 0,
-    [SPECIES_ZYGARDE_50_POWER_CONSTRUCT] = 0,
+    [SPECIES_ZYGARDE_50_POWER_CONSTRUCT] = (IND_TO_B(1) | IND_TO_B(2) | IND_TO_B(3)),
     [SPECIES_ZYGARDE_COMPLETE] = 0,
     // Hoopa
     [SPECIES_HOOPA_UNBOUND] = 0,
