@@ -1,6 +1,5 @@
 primaryIndexes
-6 
-0 
+5 
 7 
 8 
 12 
