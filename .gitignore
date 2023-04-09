@@ -7,3 +7,5 @@
 *.zip
 *.app
 *.exe
+options.ini
+data.win
